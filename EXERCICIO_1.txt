@@ -1,0 +1,22 @@
+Algoritmo "Exercicio_1"
+
+
+Var
+
+          n1: inteiro
+
+
+Inicio
+
+   escreva("Indique um número: ")
+   leia(n1)
+   
+   se (n1/2=0) então
+   escreva(n1, " é um número par!!")
+   
+   senão
+   escreva(n1, " è um número ímpar!!")
+   
+   fimse
+
+Fimalgoritmo

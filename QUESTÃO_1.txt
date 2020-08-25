@@ -1,0 +1,21 @@
+Algoritmo "Questão_1"
+
+
+Var
+     n1, n2, resultado: caractere
+
+
+Inicio
+
+     escreva ("Digite seu nome: ")
+     leia (n1)
+     escreva ("Digite seu sobrenome: ")
+     leia (n2)
+
+     resultado <- n1+" "+n2
+
+     escreva ("Seu nome completo é: ", resultado)
+
+
+
+Fimalgoritmo

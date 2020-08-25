@@ -1,0 +1,34 @@
+Algoritmo "Exercicio_"
+
+Var
+
+          n, s: caractere
+          id: inteiro
+          apm, apf: inteiro
+
+Inicio
+
+   escreva("Informe seu nome: ")
+   leia(n)
+   escreva("Informe seu sexo: ")
+   leia(s)
+   escreva("Informe sua idade: ")
+   leia(id)
+
+   se(id < 18) então
+   escreva("Você ainda é muito novo!")
+
+   fimse
+
+   apm <- (65 - id)
+   apf <- (62 - id)
+
+   se (s = "masculino") então
+   escreva("Ainda faltam", apm," anos para você se aposentar!")
+
+   senao
+   escreva("Ainda faltam", apf," anos para você se aposentar!")
+
+   fimse
+
+Fimalgoritmo

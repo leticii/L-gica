@@ -1,0 +1,20 @@
+Algoritmo "Questão_7"
+
+Var
+          temperatura:inteiro
+
+Inicio
+
+   escreva("Informe o valor da temperatura ambiente: ")
+   leia(temperatura)
+
+   se temperatura >= 25 então
+   escreval("Está muito quente!!")
+
+   senao
+   escreval("Está agradável!!")
+
+   fimse
+
+
+Fimalgoritmo

@@ -1,0 +1,19 @@
+Algoritmo "Exercicio_2"
+
+Var
+
+          t1 :inteiro
+
+Inicio
+
+   escreva("Informe o valor da temperatura ambiente: ")
+   leia(t1)
+
+   se (t1>=25) então
+   escreva("Está muito quente!!")
+
+   senao
+   escreva("Está agradável!!")
+
+   fimse
+Fimalgoritmo

@@ -1,0 +1,24 @@
+Algoritmo "Questão_6"
+
+Var
+
+         v_km, v_ms, total, sp_rj: real
+
+Inicio
+
+   escreval("Transformação de km/h em m/s!!")
+
+   escreval("Informe a velocidade em km/h: ")
+   leia (v_km)
+
+   v_ms <- (v_km/3.6)
+   escreval("A velocidade é",v_ms," em m/s.")
+
+         total <- (119.444444444444)
+
+         sp_rj <- (total - v_ms)
+
+   escreva("Com isso serão", sp_rj," m/s, para ir de São Paulo ao Rio de Janeiro.")
+
+
+Fimalgoritmo

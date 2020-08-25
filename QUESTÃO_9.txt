@@ -1,0 +1,41 @@
+Algoritmo "Questão_9"
+
+
+Var
+
+          saldo, saque, deposito: real
+          a1, a2: real
+          s_d:caractere
+
+Inicio
+
+   escreva("Informe seu saldo atual. R$")
+   leia(saldo)
+   escreva("Deseja fazer saque ou deposito? ")
+   leia(s_d)
+
+   se (s_d = "deposito") então
+   escreva("Qual o valor do deposito? R$")
+   leia(deposito)
+   fimse
+
+   se (s_d = "saque") então
+   escreva("Qual o valor do saque? R$")
+   leia(saque)
+   fimse
+
+   a1 <- (saldo + deposito)
+   a2 <- (saldo - saque)
+
+   se ( s_d = "deposito") e (a1 >= 0) então
+   escreva("Seu saldo atual é de R$", a1,".")
+   fimse
+
+   se ( s_d = "saque") e (a2 >= 0) então
+   escreva("Seu saldo atual é de R$", a2,".")
+
+   senao
+   escreva("O valor está estourado!!")
+   fimse
+
+Fimalgoritmo

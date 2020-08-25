@@ -1,0 +1,25 @@
+Algoritmo "Questão_11"
+
+Var
+
+       n1, n2, n3, media: real
+       r1, r2, r3: real
+
+Inicio
+
+   escreva("Insira sua primeira nota: ")
+   leia(n1)
+   escreva("Insira sua segunda nota: ")
+   leia(n2)
+   escreva("Insira sua terceira nota: ")
+   leia(n3)
+
+   r1 <- (n1*2/10)
+   r2 <- (n2*3/10)
+   r3 <- (n3*5/10)
+
+   media <- (r1+r2+r3)
+
+   escreva("Sua média final é", media,".")
+
+Fimalgoritmo

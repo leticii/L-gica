@@ -1,0 +1,19 @@
+Algoritmo "Exercicio_7"
+
+Var
+
+          n1: caractere
+          ct: inteiro
+
+Inicio
+
+    n1 <- "1/"
+    ct <- 0
+
+      enquanto (ct < 20) faca
+      ct <- ct + 1
+      escreval(n1,ct)
+
+      fimenquanto
+
+Fimalgoritmo

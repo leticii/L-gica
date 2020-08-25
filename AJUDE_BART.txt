@@ -1,0 +1,15 @@
+Algoritmo "Ajude_Bart"
+
+Var
+          p1, p2: inteiro
+
+Inicio
+
+      escreva("Escreva a quantidade de repetição que deseja: ")
+      leia(p1)
+      
+      para p2 <- 1  até p1 faca
+      escreval ("PROA 4.0")
+      fimpara
+
+Fimalgoritmo

@@ -1,0 +1,20 @@
+Algoritmo "Questão_12"
+
+
+Var
+
+          n_d, idade: inteiro
+
+Inicio
+
+    escreval("Veja quantos dias você viveu!!")
+
+    escreva("Informe sua idade: ")
+    leia(idade)
+
+    n_d <- (30*12*idade)
+
+    escreva("Você já viveu", n_d," dias.")
+
+
+Fimalgoritmo

@@ -1,0 +1,21 @@
+Algoritmo "Questão_5"
+
+
+Var
+
+            numero: inteiro
+
+Inicio
+   escreva("Digite um número: ")
+   leia(numero)
+
+   // se mod(%) dividido por dois for igual a 'zero' o número é par.
+   se numero mod 2 = 0 então
+   escreva("O",numero," é um número par!")
+
+   senao
+   escreva("O",  numero," é um número ímpar!")
+
+   fimse
+
+Fimalgoritmo

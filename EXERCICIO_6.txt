@@ -1,0 +1,40 @@
+Algoritmo "Exercicio_6"
+
+Var
+           n1, n2, n3, n4: inteiro
+           media: real
+           n_f: inteiro
+
+Inicio
+
+   escreva("Insira sua primeira nota: ")
+   leia(n1)
+   escreva("Insira sua segunda nota: ")
+   leia(n2)
+   escreva("Insira sua terceira nota: ")
+   leia(n3)
+   escreva("Insira sua quarta nota: ")
+   leia(n4)
+   
+   escreva("Número de faltas: ")
+   leia(n_f)
+
+   se (n_f >= 10) então
+   escreva("Reprovado por falta!!")
+   fimse
+
+   media <- (n1+n2+n3+n4/4)
+
+   se (media >= 7) e (n_f < 10) então
+   escreval("Aprovado!!")
+   fimse
+   
+   se (media = 6) ou (media = 5)  então
+     escreval("Recuperação!!")
+   fimse
+   
+   se (media < 5) então
+     escreval("Reprovado!!")
+   fimse
+
+Fimalgoritmo

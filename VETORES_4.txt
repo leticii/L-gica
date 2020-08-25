@@ -1,0 +1,24 @@
+Algoritmo "Vetor_4"
+
+Var
+          p: vetor [1..15] de caractere
+          casos: vetor [1..15] de inteiro
+          mortes: vetor [1..15] de inteiro
+          p1: vetor [1..15] de real
+          c1: inteiro
+
+Inicio
+
+   para c1 de 1 ate 15 faca
+      escreva("Informe o nome do ", c1, "º país: ")
+      leia(p[c1])
+      escreva("Iforme o número de casos: ")
+      leia(casos[c1])
+      escreva("Informe o número de óbitos: ")
+      leia(mortes[c1])
+      p1[c1] <- casos[c1] * mortes[c1] /100
+   fimpara
+   
+      escreva("A taxa de mortalidade é de", p1[c1],"%")
+
+Fimalgoritmo

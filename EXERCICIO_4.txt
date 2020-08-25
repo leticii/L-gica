@@ -1,0 +1,25 @@
+Algoritmo "Exercicio_4"
+
+Var
+          m, f :real
+          nome: caractere
+
+
+Inicio
+
+   escreva("Escreva seu nome :")
+   leia (nome)
+
+   escreva("Qual foi o seu valor de vendas? ")
+   leia(f)
+
+   m <- 2000
+
+   se (f >= m) então
+   escreva ("Parabéns!! Você conseguiu. Vá buscar seu prêmio!")
+
+   senão
+   escreva("Você não conseguiu! :(")
+
+   fimse
+Fimalgoritmo

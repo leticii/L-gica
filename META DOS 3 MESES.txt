@@ -1,0 +1,28 @@
+Algoritmo "Meta dos 3 meses"
+
+Var
+      m1, m2, m3, Saldo: real
+
+Inicio
+escreval ("Meta do meio do ano!!")
+
+      escreval("Saldo do primeiro mês: ")
+      leia (m1)
+
+      escreval ("Saldo do segundo mês: ")
+      leia (m2)
+
+      escreval ("Saldo do terceiro mês:")
+      leia (m3)
+
+        Saldo <- (m1+m2+m3)
+
+        se (Saldo >= 3000) então
+        escreval ("Meta concluida!!)
+
+        senao
+        escreval ("Estamos no vermelho!")
+
+fimse
+
+Fimalgoritmo

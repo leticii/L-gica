@@ -1,0 +1,37 @@
+Algoritmo "COVID-19"
+
+Var
+
+          p: vetor [0..14] de caractere
+          mortes: vetor [0..14] de inteiro
+          casos: vetor [0..14] de inteiro
+          ct1: inteiro
+          m_c, m_m, mediana: real
+
+
+Inicio
+
+   escreval("Informações do COVID-19")
+
+   para ct1 de 0 ate 14 faca
+      escreva("Informe o nome do país, número", ct1,": ")
+      leia(p[ct1])
+      escreva("Informe o número total de casos: ")
+      leia(casos[ct1])
+      escreva("Informe o número total de óbitos: ")
+      leia(mortes[ct1])
+   fimpara
+
+   para ct1 de 0 ate 14 faca
+       escreval("|País: ", p[ct1]," - Casos: ", casos[ct1]," - Óbitos: ", mortes[ct1])
+   fimpara
+
+   m_c <- (casos[ct1])/15
+   m_m <- (mortes[ct1])/15
+   mediana <- 7
+
+        escreval("A média total de casos é de ", m_c)
+        escreval("A média total de óbitos é de ", m_m)
+        escreval("A mediana é encontrada no País número ", mediana)
+
+Fimalgoritmo

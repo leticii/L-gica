@@ -1,0 +1,33 @@
+Algoritmo "Questão_2"
+
+
+Var
+          n1, n2:real
+
+Inicio
+
+         escreval ("Digite o primeiro número: ")
+         leia(n1)
+
+         escreval ("Digite o segundo número: ")
+         leia(n2)
+
+
+         se (n1>n2) então
+         escreva ("O número", n1," é maior que", n2,".")
+
+         fimse
+
+         se (n1<n2) então
+         escreva ("O número", n1," é menor que", n2,".")
+
+         fimse
+
+         se (n1 = n2) então
+         escreva(n1," é igual a", n2, ".")
+
+         fimse
+
+
+
+Fimalgoritmo

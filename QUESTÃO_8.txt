@@ -1,0 +1,34 @@
+Algoritmo "Questão_8"
+
+Var
+
+          nome, sexo: caractere
+          idade: inteiro
+          ap_m, ap_f: inteiro
+
+Inicio
+
+   escreva("Informe seu nome: ")
+   leia(nome)
+   escreva("Informe seu sexo: ")
+   leia(sexo)
+   escreva("Informe sua idade: ")
+   leia(idade)
+
+   se(idade < 18) então
+   escreva("Você ainda é muito novo!")
+
+   fimse
+
+   ap_m <- (65 - idade)
+   ap_f <- (62 - idade)
+
+   se (sexo = "masculino") então
+   escreva("Ainda faltam", ap_m," anos para você se aposentar!")
+
+   senao
+   escreva("Ainda faltam", ap_f," anos para você se aposentar!")
+
+   fimse
+
+Fimalgoritmo

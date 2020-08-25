@@ -1,0 +1,32 @@
+Algoritmo "Questão_3"
+
+Var
+          n1, n2:caractere
+          a1, a2: real
+
+Inicio
+
+   escreval ("Primeira pessoa, nome:")
+   leia(n1)
+   escreva ("Digite sua altura:")
+   leia(a1)
+
+   escreval("Segunda pessoa, nome: ")
+   leia(n2)
+   escreva ("Digite sua altura:")
+   leia(a2)
+
+            se (a1>a2) então
+            escreva(n1,", é a pessoa mais alta, tendo", a1," de altura.")
+            fimse
+
+            se (a2>a1) então
+            escreva(n2,", é a pessoa mais alta, tendo", a2," de altura.")
+            fimse
+
+            se (a1=a2) então
+            escreva(n1," e ", n2, " tem", a1," de altura.")
+            fimse
+
+
+Fimalgoritmo

@@ -1,0 +1,20 @@
+Algoritmo "Valores_1"
+
+Var
+
+           v1: vetor [0..2] inteiro
+           v2: vetor [0..2] inteiro
+           c1: inteiro
+Inicio
+
+   para c1 de 0 ate 2 faca
+      escreval("USA - 5,277,384 casos e 167,050 óbitos.")
+      escreval("Brasil - 3,068,138 casos e 102,034 óbitos.")
+      escreval("Índia - 2,328,405 casos e 46,188 óbitos.")
+   fimpara
+   
+   v2[c1]  v1[c1]
+   
+   escreva(v2[1])
+   
+Fimalgoritmo

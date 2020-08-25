@@ -1,0 +1,28 @@
+Algoritmo "Vetores_1"
+
+
+Var
+          v1: vetor [1..5] de caractere
+          v2: vetor [1..5] de caractere
+          c1: inteiro
+
+Inicio
+
+
+      escreval("Cinco paises, mais críticos em relação ao COVID-19")
+      escreva("")
+      
+   para c1 de 1 ate 5 faca
+      escreva("Nome do ", c1, "º País:")
+      leia(v1[c1])
+      v2[c1] <- v1[c1]
+   fimpara
+   
+   escreval("")
+   escreval("LISTAGEM")
+
+   para c1 de 1 ate 5 faca
+      escreval(v1[c1], " - ", v2[c1])
+   fimpara
+
+Fimalgoritmo

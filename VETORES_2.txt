@@ -1,0 +1,26 @@
+Algoritmo "Vetores_2"
+
+Var
+           v1: vetor [1..5] de inteiro
+           v2: vetor [1..5] de inteiro
+           v3: vetor [1..5] de inteiro
+           c1: inteiro
+
+Inicio
+
+   para c1 de 1 ate 5 faca
+      escreva ("Número de casos do", c1,"º País: ")
+      leia(v1[c1])
+      escreva ("Número de óbitos do", c1,"º País: ")
+      leia(v2[c1])
+      v3[c1] <- (v1[c1]) + (v2[c1])
+   fimpara
+
+       escreval("")
+       escreval("Soma de casos + óbitos.")
+
+   para c1 de 1 ate 5 faca
+       escreval("(Casos) ", v1[c1], " + (Óbitos) ", v2[c1], " = ", v3[c1])
+   fimpara
+
+Fimalgoritmo

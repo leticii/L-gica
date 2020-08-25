@@ -1,0 +1,46 @@
+Algoritmo "Vetore_3"
+
+Var
+          v1: vetor [1..5] de inteiro
+          v2: vetor [6..10] de inteiro
+          v3: vetor [1..10] de inteiro
+          c1, a1, a2: inteiro
+          
+          
+Inicio
+
+   para c1 de 1 ate 5 faca
+      escreva("Informe o número de casos do ", c1,"º paises: ")
+      leia(v1[c1])
+      c1 <- c1 + 5
+      escreva("Informe o número de casos do ", c1,"º paises: ")
+      leia(v2[c1])
+   fimpara
+
+      c1 <- 1
+   enquanto c1 <= 5 faca
+      v3[c1] <- v1[c1]
+      c1 <- c1 + 1
+   fimenquanto
+   
+      c1 <- 6
+   enquanto c1 <= 10 faca
+      v3[c1] <- v2[c1]
+      c1 <- c1 + 1
+   fimenquanto
+   
+   para c1 de 1 ate 10 faca
+    para a1 de c1 ate 10 faca
+      se v3[a1] < v3[c1] então
+            a2 <- v3[a1]
+        v3[a1] <- v3[c1]
+        v3[c1] <- a2
+      fimse
+    fimpara
+   fimpara
+     
+   para c1 de 1 ate 10 faca
+      escreval("Casos: ", v3[c1])
+   fimpara
+
+Fimalgoritmo
